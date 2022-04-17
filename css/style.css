@@ -1,12 +1,15 @@
-/*Animacion*/
-  .logo-a{
-    animation-name: un_efecto;
-    animation-iteration-count: initial;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-    animation-delay: 0s;
-  }
-  @keyframes un_efecto{
-    0%{width: 0;}
-    100%{width: 200px;}
-  }
+.logo-a {
+  animation-name: un_efecto;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 0s; }
+
+@keyframes un_efecto {
+  0% {
+    width: 0; }
+  100% {
+    width: 200px; } }
+
+body {
+  background-color: #F0FFFF; }
