@@ -1,8 +1,12 @@
 @import "animacion";
+@import "estilos";
+@import "nav";
+@import "inicio";
+@import "principal";
+@import "footer";
 
-$color-fondo: #F0FFFF;
-
+/*Globales*/
 body{
-    background-color: $color-fondo;
+    background-color: map-get($paleta, blanco);
 }
 

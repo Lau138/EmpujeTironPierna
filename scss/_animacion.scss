@@ -1,16 +1,33 @@
-.logo-a{
-    @include animacion;
-  }
-
-@mixin animacion {
+  @mixin animacion {
     animation-name: un_efecto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-delay: 0s;
   }
   @keyframes un_efecto{
     0%{width: 0;}
-    100%{width: 200px;}
+    100%{width: 4.4rem;}
+  }
+
+.logo-a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 4.4rem;
+  img{
+    width: 4.4rem;
+    @include animacion;
+    };
+  }
+
+
+  @media (max-width: 1200px) {
+.logo-a{
+  max-width: 100%;
+  img{
+    width: 4.4rem;
+  }
+}
   }
   

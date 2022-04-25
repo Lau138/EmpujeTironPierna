@@ -1,0 +1,33 @@
+.musculoInfo{
+    display: flex;
+    flex-direction: column;
+}
+.musculoInfo-img{
+    border: 1px solid;
+}
+.borde-rojo{
+    @extend .musculoInfo-img;
+    border-color: red; 
+}
+.borde-verde{
+    @extend .musculoInfo-img;
+    border-color: green; 
+}
+.borde-azul{
+    @extend .musculoInfo-img;
+    border-color: blue; 
+}
+
+
+
+@media (min-width: 768px) {
+    .musculoInfo{
+        flex-direction: row;
+    }
+    .musculoInfo-texto{
+        flex: 1 0 0%;
+    }
+    .musculoInfo-img{
+        flex: 1 0 0%;
+    }
+}

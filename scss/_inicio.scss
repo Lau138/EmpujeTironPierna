@@ -1,0 +1,10 @@
+.titulo{
+    font-family: 'Staatliches', cursive;
+    div{
+        h1{
+            color: map-get($paleta, secundario);
+            margin: 0;
+            padding: 0 1rem;
+        }
+    }
+}

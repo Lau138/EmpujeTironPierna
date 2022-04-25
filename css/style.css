@@ -1,15 +1,69 @@
-.logo-a {
-  animation-name: un_efecto;
-  animation-iteration-count: initial;
-  animation-timing-function: ease-in;
-  animation-duration: 3s;
-  animation-delay: 0s; }
-
 @keyframes un_efecto {
   0% {
     width: 0; }
   100% {
-    width: 200px; } }
+    width: 4.4rem; } }
 
+.logo-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 4.4rem; }
+  .logo-a img {
+    width: 4.4rem;
+    animation-name: un_efecto;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay: 0s; }
+
+@media (max-width: 1200px) {
+  .logo-a {
+    max-width: 100%; }
+    .logo-a img {
+      width: 4.4rem; } }
+
+/*Nav*/
+.navbar {
+  background-color: #f2f3f5; }
+
+.navbar-toggler-icon {
+  background-image: url(../img/navbarbottom.png); }
+
+.titulo {
+  font-family: 'Staatliches', cursive; }
+  .titulo div h1 {
+    color: #0d6efd;
+    margin: 0;
+    padding: 0 1rem; }
+
+.musculoInfo {
+  display: flex;
+  flex-direction: column; }
+
+.musculoInfo-img, .borde-rojo, .borde-verde, .borde-azul {
+  border: 1px solid; }
+
+.borde-rojo {
+  border-color: red; }
+
+.borde-verde {
+  border-color: green; }
+
+.borde-azul {
+  border-color: blue; }
+
+@media (min-width: 768px) {
+  .musculoInfo {
+    flex-direction: row; }
+  .musculoInfo-texto {
+    flex: 1 0 0%; }
+  .musculoInfo-img, .borde-rojo, .borde-verde, .borde-azul {
+    flex: 1 0 0%; } }
+
+.footer-copyright {
+  background-color: #f2f3f5; }
+
+/*Globales*/
 body {
-  background-color: #F0FFFF; }
+  background-color: #fff; }

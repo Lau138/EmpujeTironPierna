@@ -1,0 +1,8 @@
+/*Nav*/
+.navbar{
+    background-color: map-get($paleta, principal);
+}
+
+.navbar-toggler-icon{
+    background-image: url(../img/navbarbottom.png);
+}
