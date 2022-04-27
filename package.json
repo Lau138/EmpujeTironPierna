@@ -1,7 +1,7 @@
 {
   "name": "empujetironpiernas-cammarata",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web creada con sass y bootstrap que se basa en dar informacion sobre una rutina de entrenamiento muscular llamada Empuje Tiron Piernas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -63,40 +63,38 @@
         </div>
     </nav>
     <main>
-        <form class="p-5 container" action="#!" style="max-width: 60rem;">
+        <section class="container contacto">
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactáme llenando todo los campos</legend>
 
-            <p class="h4 mb-4 text-center border-bottom">Contactanos llenando todos los campos</p>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-            <div class="row">
-                <div class="col-lg">
-                    <label>Nombre</label>
-                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Tu Nombre...">
-                </div>
-                <div class="col-lg">
-                    <label>Telefono</label>
-                    <input type="number" id="defaultContactFormEmail" class="form-control mb-4"
-                        placeholder="Tu Telefono...">
-                </div>
-            </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
 
-            <label>Mail</label>
-            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Tu Mail...">
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
 
-            <div class="form-group">
-                <label>Mensaje</label>
-                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                    style="height: 12rem;"></textarea>
-            </div>
-
-            <div class="row">
-                <div class="col-lg"><button class="btn btn-info btn-block mt-5 w-100" type="submit">Enviar</button>
-                </div>
-                <div class="col-lg"></div>
-                <div class="col-lg"></div>
-                <div class="col-lg"></div>
-            </div>
-        </form>
-    </main>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> 
+                    <div class="boton">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
 
     <div class="footer-copyright text-center py-3 mt-3 fixed-bottom">© 2020 Copyright</div>
 

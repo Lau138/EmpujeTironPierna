@@ -1,3 +1,4 @@
+/*Animacion*/
 @keyframes un_efecto {
   0% {
     width: 0; }
@@ -30,6 +31,7 @@
 .navbar-toggler-icon {
   background-image: url(../img/navbarbottom.png); }
 
+/*Titulo del inicio*/
 .titulo {
   font-family: 'Staatliches', cursive; }
   .titulo div h1 {
@@ -37,6 +39,7 @@
     margin: 0;
     padding: 0 1rem; }
 
+/*Info Principal*/
 .musculoInfo {
   display: flex;
   flex-direction: column; }
@@ -61,8 +64,74 @@
   .musculoInfo-img, .borde-rojo, .borde-verde, .borde-azul {
     flex: 1 0 0%; } }
 
+/*Footer*/
 .footer-copyright {
   background-color: #f2f3f5; }
+
+/*Formulario*/
+.contacto {
+  max-width: 60rem; }
+
+.formulario {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.25rem; }
+  .formulario fieldset {
+    border: none; }
+  .formulario legend {
+    text-align: center;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    color: #000; }
+
+@media (min-width: 768px) {
+  .contenedor-campos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto 12.5rem;
+    column-gap: 0.625rem; }
+  .campo:nth-child(3),
+  .campo:nth-child(4) {
+    grid-column: 1 / 3; } }
+
+.campo {
+  margin-bottom: 0.625rem; }
+  .campo label {
+    color: #000;
+    margin-bottom: 0.313rem;
+    display: block; }
+  .campo textarea {
+    height: 12.5rem;
+    resize: none; }
+
+.input-text {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 0.938rem;
+  border-radius: 0.313rem; }
+
+.boton {
+  display: flex;
+  justify-content: flex-end; }
+  .boton input {
+    background-color: #fff;
+    color: #000;
+    padding: 0.625rem 1.875rem;
+    margin-top: 2.6rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 0.313rem;
+    width: 90%;
+    text-align: center;
+    border: 1px solid #000;
+    width: 100%; }
+  .boton input:hover {
+    cursor: pointer; }
+
+@media (min-width: 768px) {
+  .boton input {
+    width: auto; } }
 
 /*Globales*/
 body {
