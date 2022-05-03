@@ -1,4 +1,15 @@
 /*Footer*/
-.footer-copyright{
+.footer{
     background-color: map-get($paleta, principal);
+    text-align: center;
+    padding: .5rem;
+    margin-top: 10px;
+}
+
+.footer_bottom{
+    position: fixed;    
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
 }
